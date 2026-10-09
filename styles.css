@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #eee;
+}
+
+.profile {
+  padding: 20px;
+  background-color: skyblue;
+  font-size: 20px;
+}
+.profile__avatar {
+  width: 150px;
+}
+.profile__name {
+  color: red;
+}
+.profile__button {
+  border-radius: 10px;
+}
+.profile__button:hover {
+  background-color: blue;
+}
+.profile--featured {
+  background-color: red;
+}
+
+/*# sourceMappingURL=styles.css.map */

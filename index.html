@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="profile profile--featured">
+      <img
+        class="profile__avatar"
+        src="https://images.unsplash.com/photo-1494790108377-be9c29b29330"
+        alt="Anna Johnson"
+      />
+
+      <h2 class="profile__name">Anna Johnson</h2>
+
+      <p class="profile__job">Frontend Developer</p>
+
+      <p class="profile__bio">
+        I enjoy building accessible and friendly websites.
+      </p>
+
+      <button class="profile__button" type="button">View profile</button>
+    </div>
+
+    <div class="products">
+      <article class="product">
+        <h2 class="product__title">Wireless Headphones</h2>
+
+        <p class="product__description">Noise cancelling headphones.</p>
+
+        <strong class="product__price"> $129 </strong>
+
+        <button class="product__button button" type="button">
+          Add to cart
+        </button>
+      </article>
+
+      <article class="product">
+        <h2 class="product__title">Mechanical Keyboard</h2>
+
+        <p class="product__description">Compact keyboard for everyday work.</p>
+
+        <strong class="product__price"> $89 </strong>
+
+        <button class="product__button button" type="button">
+          Add to cart
+        </button>
+      </article>
+
+      <article class="product product--featured">
+        <h2 class="product__title">USB Microphone</h2>
+
+        <p class="product__description">
+          A microphone for streaming and calls.
+        </p>
+
+        <strong class="product__price"> $149 </strong>
+
+        <button class="product__button button" type="button">
+          Add to cart
+        </button>
+      </article>
+    </div>
+    <header class="header">
+      <span class="icon"> ☰ </span>
+
+      <h1 class="header__title">My Website</h1>
+    </header>
+
+    <aside class="sidebar">
+      <span class="icon sidebar__icon"> ☰ </span>
+
+      <h2 class="sidebar__title">Categories</h2>
+    </aside>
+
+    <footer class="footer">
+      <span class="icon"> ☰ </span>
+
+      <p class="footer__text">More options</p>
+    </footer>
+    <article class="event">
+      <img class="event__image" src="" alt="Frontend Conference 2026" />
+
+      <p class="event__date">October 20, 2026</p>
+
+      <h2 class="event__title">Frontend Conference 2026</h2>
+
+      <p class="event__location">Kyiv, Ukraine</p>
+
+      <p class="event__description">
+        Learn modern frontend development from experienced developers.
+      </p>
+
+      <span class="event__meta badge badge--neutral"> 350 participants </span>
+
+      <button class="event__action button button--primary" type="button">
+        Register now
+      </button>
+    </article>
+    <article class="event event--sold-out">
+      <img class="event__image" src="" alt="JavaScript Workshop" />
+
+      <p class="event__date">November 5, 2026</p>
+
+      <h2 class="event__title">JavaScript Workshop</h2>
+
+      <p class="event__location">Lviv, Ukraine</p>
+
+      <p class="event__description">
+        A practical workshop for beginner JavaScript developers.
+      </p>
+
+      <span class="event__meta badge badge--warning"> 40 participants </span>
+
+      <button
+        class="event__action button button--disabled"
+        type="button"
+        disabled
+      >
+        Sold out
+      </button>
+    </article>
+  </body>
+</html>

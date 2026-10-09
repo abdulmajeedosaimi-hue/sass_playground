@@ -1,0 +1,10 @@
+{
+  "name": "sass-project",
+  "scripts": {
+    "sass": "sass --watch styles.scss styles.css"
+  },
+  "version": "1.0.0",
+  "devDependencies": {
+    "sass": "^1.77.8"
+  }
+}

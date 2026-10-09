@@ -1,0 +1,33 @@
+@use "variables" as v;
+// $primary-color: #6c63ff;
+// $text-color: #d31111;
+// $card-bg: #f5f5f5;
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #eee;
+  // color: $text-color;
+}
+.profile {
+  $profilePadding: 20px;
+  padding: $profilePadding;
+  background-color: v.$card_background_color;
+  font-size: 20px;
+  &__avatar {
+    width: 150px;
+  }
+  &__name {
+    color: v.$main_text_color;
+  }
+
+  &__button {
+    border-radius: v.$button_border_radius;
+
+    &:hover {
+      background-color: v.$secondary_color;
+    }
+  }
+  &--featured {
+    background-color: v.$main_text_color;
+  }
+}
